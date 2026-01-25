@@ -4,10 +4,28 @@ ShadowImageExec – StegoCrypto Auto Execution via Innocent Media Files
      Created by: Kamron Saparbayev
      Codename: mai-attack
      Year: 2025
+
+---
+Attack Category:
+
+---Social Engineering,
+
+---Remote Command Execution (Agent-Based),
+
+---Defense Evasion,
+
+---Passive Command and Control (C2),
+
+---Living-off-the-Land Execution (LOLBins),
+
+---Context-Dependent Initial Access,
+
+---Persistence-Dependent Execution,
+
 ---
 What is this?
 
-ShadowImageExec is an advanced Red Team attack technique that enables the automatic execution of commands hidden within innocent-looking media files such as .png, .mp3, or .mp4.
+ShadowImageExec is a Red Team attack technique that enables the automatic execution of commands hidden within innocent-looking media files such as .png, .mp3, or .mp4.
 
 The core idea is simple yet powerful: embed an encrypted command inside a media file and allow a passive background agent to automatically detect and execute it as soon as the file is downloaded to the target system — without any user interaction.
 ---
@@ -33,14 +51,14 @@ Attacker (White-Hat or Black-Hat)
 ---
 As soon as the user downloads the file (e.g., from Telegram), the pre-installed danger.exe detects the new file, decrypts the hidden payload, and executes the command silently using Python’s subprocess.run() function.
 
-This attack is zero-click, highly stealthy, and has been proven to bypass antivirus software due to the use of encryption and steganography.
+This attack has been proven to bypass antivirus software due to the use of encryption and steganography.
 ---
 
 This tool has been tested against Windows Defender (fully updated) and was not detected under the following conditions:
 
 --danger.exe was added to the Startup folder
 
---Stego payloads were delivered via Telegram and downloaded to the Desktop
+--Stego payloads were delivered via Telegram and downloaded to the Desktop, etc..
 
 --Payloads were AES-128 encrypted and embedded into .png or .mp3 files
 
