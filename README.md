@@ -65,7 +65,7 @@ This tool has been tested against Windows Defender (fully updated) and was not d
 --The agent passively monitored folders and only executed on trigger
 
 ---
-Real-World Danger Examples
+Real-World Examples
 
 🔻 Shutdown
 ```bash
