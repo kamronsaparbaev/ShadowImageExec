@@ -1,7 +1,6 @@
 ShadowImageExec – StegoCrypto Auto Execution via Innocent Media Files
 
-     New Red Team Attack Technique
-     Created by: Kamron Saparbayev
+     Created by: Kamron Saparbaev
      Codename: mai-attack
      Year: 2025
 
