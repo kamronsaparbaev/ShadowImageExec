@@ -3,6 +3,7 @@ ShadowImageExec – StegoCrypto Auto Execution via Innocent Media Files
      Created by: Kamron Saparbaev
      Codename: mai-attack
      Year: 2025
+     DOI: 10.5281/ZENODO.22981149
 
 ---
 Attack Category:
